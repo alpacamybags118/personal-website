@@ -1,0 +1,21 @@
+.pgbackground {
+  background-color:  #94988C;
+  font-family:"Cascadia Code", sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screenbezel {
+  border: 10px;
+  border-color: #43453f;
+  border-style: solid;
+  border-radius: 10%;
+}

@@ -1,140 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Kyle Robertson</title>
-  <meta name="description" content="personal website">
-  <meta name="author" content="alpacamybags118">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/personal.css">
-
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" href="images/favicon.gif" type="image/gif">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <link rel="icon" href="favicon.gif" type="image/gif">
+  <title>Kyle Robertson 2.0</title>
 </head>
-<body>
-  <section id="sidebar">
-    <div>
-      <nav>
-        <ul class="nav">
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#open-source">Open Source</a>
-          </li>
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#links">Links</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-<div class="section hero">
-  <div class="container">
-    <h1>Kyle Robertson</h1>
-    <h2>Site Reliability Engineer</h2>
-    <p><h4>I do stuff, depending on what the day brings.</h4></p>
+<body class="pgbackground">
+  <h1 class="title">Kyle Robertson</h1>
+  <h2 class="title">Software Engineer</h1>
+  <div class="canvas">
+    <canvas class="screenbezel" id="animatedalpaca"></canvas>
+    <script src="index.js"></script>
   </div>
-</div>
-<div class="section">
-  <div class="container">
-    <img alt="ging nang boyz door album cover" class="display-image u-max-full-width" src="images/door.webp">
-  </div>
-</div>
-<section id="projects">
-<div class="section">
-  <div class="container">
-    <h2>Projects</h2>
-      <h3><a href="https://github.com/alpacamybags118/dj-ino">DJ Ino</a></h3>
-      <p>A discord bot that is used on a server with more than 500 users to play music via Youtube.</p>
-      <h4>Tools/Technologies Used</h4>
-      <ul>
-        <li>Typescript</li>
-        <li>Discord SDK</li>
-        <li>yt-dlp</li>
-        <li>Google Cloud</li>
-      </ul>
-      <h3><a href="https://github.com/alpacamybags118/yt-dlp-exec">yt-dlp-exec</a></h3>
-      <p>A node library used to invoke yt-dlp as a child process in a Javascript or Typescript application.</p>
-      <h4>Tools/Technologies Used</h4>
-      <ul>
-        <li>Javascript</li>
-        <li>yt-dlp</li>
-        <li>execa</li>
-      </ul>
-  </div>
-</div>
-</section>
-<section id="open-source">
-<div class="section">
-  <div class="container">
-    <h2>Open Source</h2>
-    <p>I occasionally contribute to open-source projects as a learning experience and to give back to the community.</p>
-    <ul>
-      <li><a href="https://github.com/aws/aws-cdk">aws-cdk</a></li>
-      <li><a href="https://github.com/gruntwork-io/terratest">terratest</a></li>
-      <li><a href="https://github.com/hashicorp/terraform-provider-aws">terraform-provider-aws</a></li>
-    </ul>
-  </div>
-</div>
-</section>
-<section id="about-me">
-<div class="section">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>Hello! I am a Site Reliability Engineer based in Southeast Michigan. I have worked many roles throughout my career, from application administrator, software engineer,
-      and systems engineer! I consider myself a jack of all trades and can generally be placed at most places in the stack and provide value (besides maybe frontend, as you can see with this site :) ).
-    </p>
-    <p>
-      Currently my interests lie in the realm of reliability and observability. I spend much of my time working with other engineers to help ensure their systems have proper
-      observability and stability. This puts me in a lot of places, anywhere from working in metric tools such as Grafana and Dynatrace, to working with hardening infrastructure such as
-      AWS ECS and EKS, to writing code in the form of services or libraries to help us achieve said goals.
-    </p>
-    <p>
-      I also code in my spare time and I'm currently exploring technologies such as blockchain, machine learning, and Go. I created this website as an exercise
-      in attempting to improve my front-end skillsets. Outside of engineering, my interests include music - both listening and playing, gaming, <a href="images/car.jpg">cars</a>, and <a href="images/cat.jpg">my cat</a>.
-    </p>
-    <p>
-      My favorite bands are <a href="https://youtu.be/-JqHfrhIVVM">Ging Nang Boyz</a> and <a href="https://youtu.be/v_FdPzGw5x8">Deerhunter</a>.
-    </p>
-  </div>
-</div>
-</section>
-<section id="links">
-  <div class="section">
-    <div class="container">
-      <h2>Links</h2>
-  <ul>
-    <li>
-      <a href="https://github.com/alpacamybags118">Github</a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/kyle-robertson-44ab4931/">Linkedin</a>
-    </li>
-  </ul>
-</div>
-</div>
-  </section>
 </body>
-</html>
+</html>  
